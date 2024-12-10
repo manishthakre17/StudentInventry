@@ -29,7 +29,7 @@ public class StudentController {
 		 System.out.println(studentDTO.getName());
 			System.out.println(studentDTO.getAge());
 			System.out.println(studentDTO.getStudentIdCardDTO());
-		//  System.out.println("Controller======================> "+studentDTO.toString());
+		  System.out.println("Controller======================> "+studentDTO.toString());
 		 boolean isSaved  = studentService.createStudent(studentDTO);
 	        return "Student Added";
 	    }
